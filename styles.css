@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background: url(Quiz-BG.jpg);
+}
+h2{
+    color:#f5f5f5;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#profile {
+    margin-bottom: 20px;
+    
+    
+}
+
+#profile-info {
+    display: flex;
+    text-align: center;
+    color:antiquewhite;
+    
+}
+
+#profile-picture {
+    margin-right: 20px;
+    position: relative;
+}
+
+#profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#upload-image {
+    display: none;
+}
+
+#profile-picture:hover #upload-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#profile-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#quizzes {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent;
+}
+
+.quiz {
+    margin-bottom: 20px;
+}
+
+.quiz h3 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 20px;
+    background-color: #4CAF50;
+}
+
+.percentage {
+    font-weight: bold;
+}
+#profile-details{
+    text-align: center;
+}

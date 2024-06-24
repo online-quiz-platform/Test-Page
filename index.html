@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizoPedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>QuizoPedia</h1>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>User Profile</h2>
+            <div id="profile-info">
+                <div id="profile-picture">
+                    <img id="profile-img" src="img_avatar.webp" alt="Profile Picture">
+                    <input type="file" id="upload-image" accept="image/*">
+                </div>
+                <div id="profile-details">
+                    <p id="username">Username: KUNAL</p>
+                    <p id="email">Email: pandeykunal@gmail.com</p>
+                </div>
+            </div>
+        </section>
+        <section id="quizzes">
+            <h2>List of Quizzes</h2>
+            <div class="quiz" data-progress="80">
+                <h3>Maths</h3>
+                <div class="progress-bar"><div class="progress"></div></div>
+                <span class="percentage">80%</span>
+            </div>
+            <div class="quiz" data-progress="60">
+                <h3>Science</h3>
+                <div class="progress-bar"><div class="progress"></div></div>
+                <span class="percentage">60%</span>
+            </div>
+            <div class="quiz" data-progress="90">
+                <h3>Physics</h3>
+                <div class="progress-bar"><div class="progress"></div></div>
+                <span class="percentage">90%</span>
+            </div>
+            <div class="quiz" data-progress="70">
+                <h3>Astronomy</h3>
+                <div class="progress-bar"><div class="progress"></div></div>
+                <span class="percentage">70%</span>
+            </div>
+            <div class="quiz" data-progress="50">
+                <h3>English</h3>
+                <div class="progress-bar"><div class="progress"></div></div>
+                <span class="percentage">50%</span>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
